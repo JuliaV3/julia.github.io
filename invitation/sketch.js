@@ -28,13 +28,13 @@ triangle(360, 130, 760, 500, -40, 500); //second mountain
     fill(0);
     textSize(30);
     textAlign(CENTER);
-    text("!Travel Let's", this.x + 220*this.s, this.y + 70*this.s);
+    text("Let's Travel!", this.x + 220*this.s, this.y + 70*this.s);
     
     noStroke(); 
     strokeWeight(3);
     fill(0);
     textSize(13);
-    text("engine the start to Click", this.x + 120*this.s, this.y + 140*this.s);
+    text("Click the plane to start the engine", this.x + 120*this.s, this.y + 140*this.s);
   },
 
   updatePosition : function() {
